@@ -1,0 +1,9 @@
+# Indent private/protected/public as deep as method definitions
+Layout/AccessModifierIndentation:
+  EnforcedStyle: indent
+  SupportedStyles:
+    - outdent
+    - indent
+  # By default, the indentation width from Layout/IndentationWidth is used
+  # But it can be overridden by setting this parameter
+  IndentationWidth: ~
